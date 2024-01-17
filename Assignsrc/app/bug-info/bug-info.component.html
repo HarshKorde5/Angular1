@@ -1,0 +1,13 @@
+<form>
+  <div>
+    <label>Date : <input class="form-control" type="date" #date></label><br>
+    <label>Impact : <textarea class="form-control" #impact placeholder="Enter the impact"></textarea></label><br>
+    <label>Details : <textarea class="form-control" #details placeholder="Give some details"></textarea></label><br>
+  </div>
+
+  <div *ngIf = "StatusB;then ifblock"></div>
+
+  <ng-template #ifblock>
+    {{binit(date.value,impact.value,details.value)}}
+  </ng-template>
+</form>

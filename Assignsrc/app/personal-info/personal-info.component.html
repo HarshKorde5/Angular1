@@ -1,0 +1,11 @@
+<form>   
+    <div class="form-group">
+        <label>Enter Your Name : <input #names type="text" placeholder="Enter full name" class="form-control"></label><br>
+        <label>Enter Email Address : <input #mail type="email" placeholder="xyz@example.com" class="form-control"></label>
+    </div>
+
+    <div *ngIf = "StatusP;then ifblock"></div>
+    <ng-template #ifblock>
+        {{pinit(names.value,mail.value)}}
+    </ng-template>
+</form>

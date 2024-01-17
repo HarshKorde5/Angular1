@@ -1,0 +1,14 @@
+#head{
+    background-color: rgba(211, 211, 211, 0.797);
+    height: 100px;
+    padding: 10px;
+}
+
+#p1{
+    margin-left: 20px;
+    color: rgb(115, 115, 115);
+}
+
+button{
+    width: 20%;
+}

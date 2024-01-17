@@ -1,0 +1,25 @@
+#contact{
+    color: rgb(189, 18, 189);
+    padding-top: 150px;
+    font-size: 60px;
+    
+    text-align: center;
+}
+
+#support1{
+    font-size: 60px;
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+img{
+    padding-top: 30px;
+}
+
+#div2{
+    text-align: center;
+    font-size: 30px;
+}
